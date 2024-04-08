@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventListeners</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <h2>HighScores</h2>
+    <ol id="highScore"></ol>
+<h2 id="topH2">Welcome to Throw Dice! Enter your name, press submit, and then use "Roll the Dice" to play the game. 
+    Click "Save Round" if you want to save your current points to your total. If you roll a one, you lose all your points for the round! 
+    When you reach a 100 saved points you win.</h2>
+<br>
+<br>
+<div id="dieDiv">
+<div class="die die-1">
+    <div></div>
+</div>
+<div class="die die-2">
+    <div></div>
+    <div></div>
+</div>
+<div class="die die-3">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="die die-4">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="die die-5">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="die die-6">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</div>
+<form id="nameForm">
+    <input type="text" placeholder="Enter your name" required>
+    <button>Submit</button>
+</form>
+<form>
+    <button id="diceBtn">Roll the Dice</button>
+    <button id="saveBtn">Save Round</button>
+</form>
+<h3 id="messageH3"></h3>
+<h3 id="diceNumber"></h3>
+<div id="pointsDiv">
+    <h3 id="roundPoints"></h3>
+    <h3 id="noOfRounds"></h3>
+    <h3 id="totalPoints"></h3>
+</div>
+</body>
+</html>
