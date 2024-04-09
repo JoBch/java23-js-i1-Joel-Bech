@@ -48,7 +48,7 @@ function insertName(event){
     userName = nameForm.querySelector("input").value;
     topH2.innerText = userName;
     console.log(userName)
-    nameForm.style.display = "hidden";
+    nameForm.style.visibility = "hidden";
 }
 
 function rollDice(event){
